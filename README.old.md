@@ -1,2 +1,1 @@
-# Math-Magicians
-added later
+# Getting Started with Create React App
