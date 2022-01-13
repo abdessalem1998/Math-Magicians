@@ -1,13 +1,23 @@
 import React from 'react';
 import './Calculator.css';
+//  import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  clickHandler() {
+    console.log('hi');
+    console.log('this is:', this);
+  }
+
   render() {
     return (
       <div className="grid-container">
         <div className="result">0</div>
-        <button type="button" className="keyboard nbr">AC</button>
+        <button onClick={this.clickHandler} type="button" className="keyboard nbr">AC</button>
         <button type="button" className="keyboard nbr">+/-</button>
         <button type="button" className="keyboard nbr">%</button>
         <button type="button" className="keyboard op">÷</button>
