@@ -7,25 +7,25 @@ class Calculator extends React.Component {
     return (
       <div className="grid-container">
         <div className="result">0</div>
-        <div className="keyboard nbr">AC</div>
-        <div className="keyboard nbr">+/-</div>
-        <div className="keyboard nbr">%</div>
-        <div className="keyboard op">÷</div>
-        <div className="keyboard nbr">7</div>
-        <div className="keyboard nbr">8</div>
-        <div className="keyboard nbr">9</div>
-        <div className="keyboard op">×</div>
-        <div className="keyboard nbr">4</div>
-        <div className="keyboard nbr">5</div>
-        <div className="keyboard nbr">6</div>
-        <div className="keyboard op">-</div>
-        <div className="keyboard nbr">1</div>
-        <div className="keyboard nbr">2</div>
-        <div className="keyboard nbr">3</div>
-        <div className="keyboard op">+</div>
-        <div className="keyboard item0 nbr">0</div>
-        <div className="keyboard nbr">.</div>
-        <div className="keyboard op">=</div>
+        <button type="button" className="keyboard nbr">AC</button>
+        <button type="button" className="keyboard nbr">+/-</button>
+        <button type="button" className="keyboard nbr">%</button>
+        <button type="button" className="keyboard op">÷</button>
+        <button type="button" className="keyboard nbr">7</button>
+        <button type="button" className="keyboard nbr">8</button>
+        <button type="button" className="keyboard nbr">9</button>
+        <button type="button" className="keyboard op">×</button>
+        <button type="button" className="keyboard nbr">4</button>
+        <button type="button" className="keyboard nbr">5</button>
+        <button type="button" className="keyboard nbr">6</button>
+        <button type="button" className="keyboard op">-</button>
+        <button type="button" className="keyboard nbr">1</button>
+        <button type="button" className="keyboard nbr">2</button>
+        <button type="button" className="keyboard nbr">3</button>
+        <button type="button" className="keyboard op">+</button>
+        <button type="button" className="keyboard item0 nbr">0</button>
+        <button type="button" className="keyboard nbr">.</button>
+        <button type="button" className="keyboard op">=</button>
       </div>
     );
   }
