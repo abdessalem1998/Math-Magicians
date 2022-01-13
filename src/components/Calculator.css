@@ -16,7 +16,7 @@
 .result {
   grid-column: 1 / 5;
   background-color: #858694;
-  color : white;
+  color: white;
   text-align: right;
 }
 
@@ -25,9 +25,9 @@
 }
 
 .op {
-background-color: #f5913e;
+  background-color: #f5913e;
 }
 
 .nbr {
-background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
