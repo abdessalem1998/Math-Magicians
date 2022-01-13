@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.keyboard {
+  text-align: center;
+}
+
+.result {
+  grid-column: 1 / 5;
+  background-color: #858694;
+  color: white;
+  text-align: right;
+}
+
+.item0 {
+  grid-column: 1 / 3;
+}
+
+.op {
+  background-color: #f5913e;
+}
+
+.nbr {
+  background-color: #e0e0e0;
+}
