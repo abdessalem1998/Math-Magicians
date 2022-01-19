@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
-import Navbar from './Navbar';
 
 const Calculator = () => {
   const [values, setValues] = useState({
@@ -23,7 +22,6 @@ const Calculator = () => {
   } = values;
   return (
     <>
-      <Navbar />
       <div style={{ display: 'flex', flexDirection: 'row', padding: '5%' }}>
         <div style={{ width: '40%' }}>
           <p style={{ fontSize: '30px' }}>Let s do some math</p>
