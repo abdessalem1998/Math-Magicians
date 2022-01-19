@@ -1,6 +1,6 @@
 const Home = () => (
-  <div>
-    <h2>Welcome to our page!</h2>
+  <div style={{ margin: 'auto auto', paddingTop: '5%', width: '80%' }}>
+    <h2 style={{ fontSize: '30px' }}>Welcome to our page!</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

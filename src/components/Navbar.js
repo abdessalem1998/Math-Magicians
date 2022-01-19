@@ -56,6 +56,10 @@ const Navbar = () => {
                 to={link.path}
                 activeClassName="active-link"
                 exact
+                style={{
+                  color: 'white',
+                  textDecoration: 'none',
+                }}
               >
                 {link.text}
               </NavLink>
