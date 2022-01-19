@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Home from './pages/Home';
@@ -9,11 +14,22 @@ import Navbar from './components/Navbar';
 class App extends React.Component {
   render() {
     return (
+
       <div className="App">
         <Navbar />
-        <Home />
-        <Calculator />
-        <Quote />
+        <Router>
+          <Switch>
+            <Route path="/">
+              <Home />
+            </Route>
+            <Route path="/Calculator">
+              <Calculator />
+            </Route>
+            <Route path="/Quote">
+              <Quote />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     );
   }
