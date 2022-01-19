@@ -6,6 +6,12 @@
 - Make simple calculations,
 - Read a random math-related quote.
 
+![image](https://user-images.githubusercontent.com/89970442/150215216-bf2cddd3-15f9-44b9-a29f-3c7182abc05e.png)
+
+![image](https://user-images.githubusercontent.com/89970442/150215056-ac1bc94c-7fb8-439e-b25a-65b457a0ea11.png)
+
+![image](https://user-images.githubusercontent.com/89970442/150215108-5c0d1636-52ba-46e2-9a1a-4a9ae19d81db.png)
+
 
 ## Built With
 
