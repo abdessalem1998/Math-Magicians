@@ -1,8 +1,7 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
   Route,
+  Switch,
 } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
@@ -14,22 +13,19 @@ import Navbar from './components/Navbar';
 class App extends React.Component {
   render() {
     return (
-
       <div className="App">
         <Navbar />
-        <Router>
-          <Switch>
-            <Route path="/">
-              <Home />
-            </Route>
-            <Route path="/Calculator">
-              <Calculator />
-            </Route>
-            <Route path="/Quote">
-              <Quote />
-            </Route>
-          </Switch>
-        </Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/Calculator">
+            <Calculator />
+          </Route>
+          <Route path="/Quote">
+            <Quote />
+          </Route>
+        </Switch>
       </div>
     );
   }

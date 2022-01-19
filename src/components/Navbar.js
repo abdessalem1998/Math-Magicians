@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
   const links = [
     {
@@ -50,7 +52,13 @@ const Navbar = () => {
                 textDecoration: 'none',
               }}
             >
-              {link.text}
+              <NavLink
+                to={link.path}
+                activeClassName="active-link"
+                exact
+              >
+                {link.text}
+              </NavLink>
             </li>
           ))
        }
