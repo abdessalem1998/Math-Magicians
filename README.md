@@ -29,6 +29,9 @@
 
 In the project directory, you can run:
 
+### `npm install`
+install Node Modules.
+
 ### `npm start`
 
 Runs the app in the development mode.\
