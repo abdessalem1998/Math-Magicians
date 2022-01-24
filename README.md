@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Check the demo here!](https://quizzical-fermat-dcbde0.netlify.app/Quote)
+[Check the demo here!](https://quizzical-fermat-dcbde0.netlify.app)
 
 ## Getting Started
 
