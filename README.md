@@ -17,13 +17,10 @@
 
 - React
 
-## Videos about this project
-
-[soon!]()
 
 ## Live Demo
 
-[Comming soon!]()
+[Check the demo here!](https://quizzical-fermat-dcbde0.netlify.app/Quote)
 
 ## Getting Started
 
