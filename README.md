@@ -20,7 +20,8 @@
 
 ## Live Demo
 
-[Check the demo here!](https://quizzical-fermat-dcbde0.netlify.app)
+[Check the demo here using netlify!](https://quizzical-fermat-dcbde0.netlify.app)
+[Check the demo here using heroku!](https://mathmagictest.herokuapp.com)
 
 ## Getting Started
 
